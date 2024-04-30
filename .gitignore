@@ -9,6 +9,8 @@
 # Icon must end with two \r
 Icon
 
+# image file
+.products/image
 
 # Thumbnails
 ._*
