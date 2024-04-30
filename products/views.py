@@ -22,7 +22,6 @@ class ProductListCreateView(generics.ListCreateAPIView):
         return paginator.get_paginated_response(data)
 
 
-
 # 상품 수정 및 삭제
 class ProductUpdateDeleteView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Product.objects.all()
