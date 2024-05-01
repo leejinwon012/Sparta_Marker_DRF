@@ -22,9 +22,9 @@ class ProductListCreateView(generics.ListCreateAPIView):
         username = self.request.query_params.get('username', None)
         content = self.request.query_params.get('content', None)
         if title:
-            queryset = queryset.filter(title=title)
+            queryset = queryset.filter(title__icontains=title)
         if username:
-            queryset = queryset.filter(author__username=username)
+            queryset = queryset.filter(username=username)
         if content:
             queryset = queryset.filter(content__icontains=content)
         return queryset
