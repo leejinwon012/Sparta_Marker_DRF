@@ -55,6 +55,6 @@
 - 토큰 갱신(POST) : `/api/accounts/token/refresh/`
 - 사용자 프로필 조회(GET) : `/api/accounts/<username>/`
 - 상품 등록 및 조회(POST / GET) : `/api/products/`
-- 상품 수정(PUT) : '/api/products/<productsId>'
-- 상품 삭제(DEL) : 'api/products/<productsId>'
+- 상품 수정(PUT) : '/api/products/<productsId>/'
+- 상품 삭제(DEL) : '/api/products/<productsId>/'
 
