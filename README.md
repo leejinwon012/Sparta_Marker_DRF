@@ -1,4 +1,4 @@
-# 🛠️ **[웹 프로젝트](https://github.com/leejinwon012/Sparta-Market)** 참조해 퓨어 장고를 DRF 변환
+# 🛠️ **[웹 프로젝트](https://github.com/leejinwon012/Sparta-Market)** 참조해 퓨어 장고 DRF 변환
 
 이 프로젝트는 Django를 사용하여 사용자 및 상품을 관리하는 RESTful API를 구축한 것입니다. 사용자는 등록하고 로그인하여 개인 프로필을 관리하고, 상품은 등록하고 관리할 수 있습니다.
 
