@@ -5,13 +5,31 @@ from .models import Product
 from .serializers import ProductSerializer
 from rest_framework.permissions import IsAuthenticatedOrReadOnly, AllowAny
 from rest_framework.exceptions import PermissionDenied
+from django_filters.rest_framework import DjangoFilterBackend
+from .filters import ProductFilter
 
 
-# 상품 등록, 상품 조회
+# 상품 등록, 상품 조회 (GET 요청시에만 페이지네이션 및 필터링(검색기능) 가능 / POSTMAN BODY에 JSON 형식으로 넣으면 기능 안되는게 정상)
 class ProductListCreateView(generics.ListCreateAPIView):
-    queryset = Product.objects.all()
     serializer_class = ProductSerializer
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
+    filter_backends = [DjangoFilterBackend]
+    filterset_class = ProductFilter
+
+    def get_queryset(self):
+        queryset = Product.objects.all()
+        title = self.request.query_params.get('title', None)
+        username = self.request.query_params.get('username', None)
+        content = self.request.query_params.get('content', None)
+        if title:
+            queryset = queryset.filter(title=title)
+        if username:
+            queryset = queryset.filter(author__username=username)
+        if content:
+            queryset = queryset.filter(content__icontains=content)
+        return queryset
+
+
 
     def perform_create(self, serializer):
         serializer.save(author=self.request.user)
