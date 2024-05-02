@@ -50,25 +50,27 @@
 
 ## API 엔드포인트 :pushpin:
 
-- 사용자 등록(POST) : `/api/accounts/`
-- 사용자 로그인(POST) : `/api/accounts/login/`
-- 토큰 갱신(POST) : `/api/accounts/token/refresh/`
-- 사용자 프로필 조회(GET) : `/api/accounts/<username>/`
-- 상품 등록 및 조회(POST / GET) : `/api/products/`
-- 상품 수정(PUT) : `/api/products/<productid>/`
-- 상품 삭제(DEL) : `/api/products/<productid>/`
+- **사용자 등록(POST)** : `/api/accounts/`
+- **사용자 로그인(POST)** : `/api/accounts/login/`
+- **토큰 갱신(POST)** : `/api/accounts/token/refresh/`
+- **사용자 프로필 조회(GET**) : `/api/accounts/<username>/`
+- **상품 등록 및 조회(POST / GET)** : `/api/products/`
+- **상품 수정(PUT)** : `/api/products/<productid>/`
+- **상품 삭제(DEL)** : `/api/products/<productid>/`
 
 <br/>
 
 
 ## POSTMAN 기능 점검 🌐
 
+- POSTMAN을 활용해서 각 기능들을 점검한 결과입니다.
+
 <br/>
 
 ## 회원가입
 
 <div align="center">
-  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/ab94a367-8633-4873-b7f5-89dd191bde15" alt="회원가입" width="300">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/ab94a367-8633-4873-b7f5-89dd191bde15" alt="회원가입" width="550">
 </div>
 
 회원가입 기능을 통해 새로운 사용자를 등록할 수 있습니다.
@@ -80,7 +82,7 @@
 ## 로그인
 
 <div align="center">
-  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/da5f4c7a-e8ba-40cf-8adb-c453643d34ac" alt="로그인" width="300">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/da5f4c7a-e8ba-40cf-8adb-c453643d34ac" alt="로그인" width="550">
 </div>
 
 회원가입한 사용자로 로그인할 수 있습니다.
@@ -92,7 +94,7 @@
 ## 로그인 토큰 재발급
 
 <div align="center">
-  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/188c0ba0-3b46-4ad4-842f-8093e0169dfd" alt="로그인 토큰 재발급" width="300">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/188c0ba0-3b46-4ad4-842f-8093e0169dfd" alt="로그인 토큰 재발급" width="550">
 </div>
 
 로그인 토큰을 재발급받을 수 있습니다.
@@ -104,7 +106,7 @@
 ## 프로필 조회
 
 <div align="center">
-  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/306e0186-3c07-4493-8e48-d8b0412e5f97" alt="프로필 조회" width="300">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/306e0186-3c07-4493-8e48-d8b0412e5f97" alt="프로필 조회" width="550">
 </div>
 
 사용자의 프로필을 조회할 수 있습니다.
@@ -116,7 +118,7 @@
 ## 상품 등록 전 토큰
 
 <div align="center">
-  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/f9b951d1-bdd3-4380-a34b-508d08c23102" alt="상품 등록 전 토큰" width="300">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/f9b951d1-bdd3-4380-a34b-508d08c23102" alt="상품 등록 전 토큰" width="550">
 </div>
 
 상품을 등록하기 위해 필요한 토큰입니다. 이에 따라 회원가입을 한 유저만 상품 등록이 가능함을 의미합니다.
@@ -128,7 +130,7 @@
 ## 상품 등록
 
 <div align="center">
-  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/ce5273d1-6bb3-4ff2-8fe8-49427eddcf29" alt="상품 등록" width="300">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/ce5273d1-6bb3-4ff2-8fe8-49427eddcf29" alt="상품 등록" width="550">
 </div>
 
 새로운 상품을 등록할 수 있습니다.
@@ -140,7 +142,7 @@
 ## 상품 목록 조회
 
 <div align="center">
-  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/87ecbad2-74ac-41a3-83ed-657f95bbd3b6" alt="상품 목록 조회" width="300">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/87ecbad2-74ac-41a3-83ed-657f95bbd3b6" alt="상품 목록 조회" width="550">
 </div>
 
 등록된 상품 목록을 조회할 수 있습니다.
@@ -152,7 +154,7 @@
 ## 상품 목록 검색
 
 <div align="center">
-  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/800b9918-04ac-47c8-94ae-61c245e090cc" alt="상품 목록 검색" width="300">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/800b9918-04ac-47c8-94ae-61c245e090cc" alt="상품 목록 검색" width="550">
 </div>
 
 상품 목록을 검색할 수 있습니다.
@@ -164,7 +166,7 @@
 ## 상품 수정 전 토큰
 
 <div align="center">
-  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/4f9facbb-4e95-4096-8557-e91ea265d858" alt="상품 수정 전 토큰" width="300">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/4f9facbb-4e95-4096-8557-e91ea265d858" alt="상품 수정 전 토큰" width="550">
 </div>
 
 상품을 수정하기 위해 필요한 토큰입니다. 상품을 등록한 유저만 자신의 게시글을 수정 가능함을 의미합니다.
@@ -176,7 +178,7 @@
 ## 상품 수정
 
 <div align="center">
-  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/35d8fbba-492a-443d-902c-c80981bc3dc0" alt="상품 수정" width="300">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/35d8fbba-492a-443d-902c-c80981bc3dc0" alt="상품 수정" width="550">
 </div>
 
 등록된 상품을 수정할 수 있습니다.
@@ -188,7 +190,7 @@
 ## 상품 삭제
 
 <div align="center">
-  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/cfa39748-6dc2-4809-a31f-9013ea8f6295" alt="상품 삭제" width="300">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/cfa39748-6dc2-4809-a31f-9013ea8f6295" alt="상품 삭제" width="550">
 </div>
 
 등록된 상품을 삭제할 수 있습니다.
