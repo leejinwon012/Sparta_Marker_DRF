@@ -142,10 +142,10 @@
 ## 상품 목록 조회
 
 <div align="center">
-  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/87ecbad2-74ac-41a3-83ed-657f95bbd3b6" alt="상품 목록 조회" width="550">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/ac4fd2cc-887d-4bcc-af80-b56071d53ebd" alt="상품 목록 조회" width="550">
 </div>
 
-등록된 상품 목록을 조회할 수 있습니다.
+등록된 상품 목록을 3개씩 조회할 수 있습니다. POSTMAN의 PAGE의 VALUE 값인 페이지 번호를 변경해서 주면 다음 페이지의 항목을 볼 수 있습니다.
 
 ---
 
