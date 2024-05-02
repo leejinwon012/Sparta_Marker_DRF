@@ -32,7 +32,7 @@ class ProductListCreateView(generics.ListCreateAPIView):
 
 
     def perform_create(self, serializer):
-        serializer.save(author=self.request.user)
+        serializer.save(username=self.request.user.username)
 
     def get_paginated_response(self, data):
         paginator = PageNumberPagination()
@@ -48,14 +48,14 @@ class ProductUpdateDeleteView(generics.RetrieveUpdateDestroyAPIView):
 
     def delete(self, request, *args, **kwargs):
         instance = self.get_object()
-        if instance.author != request.user:
+        if instance.username != request.user.username:
             raise PermissionDenied("해당 권한이 없습니다.")
         self.perform_destroy(instance)
         return Response(status=status.HTTP_204_NO_CONTENT)
 
     def update(self, request, *args, **kwargs):
         instance = self.get_object()
-        if instance.author != request.user:
+        if instance.username != request.user.username:
             raise PermissionDenied("해당 권한이 없습니다.")
         serializer = self.get_serializer(
             instance, data=request.data, partial=kwargs.get('partial', False)
