@@ -58,3 +58,23 @@
 - 상품 수정(PUT) : `/api/products/<productid>/`
 - 상품 삭제(DEL) : `/api/products/<productid>/`
 
+<br/>
+
+## POSTMAN 기능 점검 🌐
+
+<div align="center">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/ab94a367-8633-4873-b7f5-89dd191bde15" alt="회원가입" width="400" height="300">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/da5f4c7a-e8ba-40cf-8adb-c453643d34ac" alt="로그인" width="400" height="300">
+  <br>
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/188c0ba0-3b46-4ad4-842f-8093e0169dfd" alt="로그인 토큰 재발급" width="400" height="300">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/306e0186-3c07-4493-8e48-d8b0412e5f97" alt="프로필 조회" width="400" height="300">
+  <br>
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/f9b951d1-bdd3-4380-a34b-508d08c23102" alt="상품 등록 전 토큰" width="400" height="300">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/ce5273d1-6bb3-4ff2-8fe8-49427eddcf29" alt="상품 등록" width="400" height="300">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/87ecbad2-74ac-41a3-83ed-657f95bbd3b6" alt="상품 목록 조회" width="400" height="300">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/800b9918-04ac-47c8-94ae-61c245e090cc" alt="상품 목록 검색" width="400" height="300">
+  <br>
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/4f9facbb-4e95-4096-8557-e91ea265d858" alt="상품 수정 전 토큰" width="400" height="300">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/35d8fbba-492a-443d-902c-c80981bc3dc0" alt="상품 수정" width="400" height="300">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/cfa39748-6dc2-4809-a31f-9013ea8f6295" alt="상품 삭제" width="400" height="300">
+  <br>
