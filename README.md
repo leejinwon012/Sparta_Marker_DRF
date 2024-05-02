@@ -62,11 +62,47 @@
 
 ## POSTMAN 기능 점검 🌐
 
+## 회원가입
 
-![회원가입](https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/ab94a367-8633-4873-b7f5-89dd191bde15 "회원가입")
+<div align="center">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/ab94a367-8633-4873-b7f5-89dd191bde15" alt="회원가입" width="300">
+</div>
 
-회원가입을 통해 새로운 사용자를 등록할 수 있습니다.
+회원가입 기능을 통해 새로운 사용자를 등록할 수 있습니다.
 
+---
+
+## 로그인
+
+<div align="center">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/da5f4c7a-e8ba-40cf-8adb-c453643d34ac" alt="로그인" width="300">
+</div>
+
+회원가입한 사용자로 로그인할 수 있습니다.
+
+---
+
+## 로그인 토큰 재발급
+
+<div align="center">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/188c0ba0-3b46-4ad4-842f-8093e0169dfd" alt="로그인 토큰 재발급" width="300">
+</div>
+
+로그인 토큰을 재발급받을 수 있습니다.
+
+---
+
+## 프로필 조회
+
+<div align="center">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/306e0186-3c07-4493-8e48-d8b0412e5f97" alt="프로필 조회" width="300">
+</div>
+
+사용자의 프로필을 조회할 수 있습니다.
+
+---
+
+(이하 생략)
 
 
 <div align="center">
