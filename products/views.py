@@ -15,6 +15,8 @@ class ProductListCreateView(generics.ListCreateAPIView):
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
     filter_backends = [DjangoFilterBackend]
     filterset_class = ProductFilter
+    pagination_class = PageNumberPagination  # 페이지네이션 클래스 설정
+    pagination_class.page_size = 3  # 페이지당 게시글 수 설정
 
     def get_queryset(self):
         queryset = Product.objects.all()
@@ -29,15 +31,8 @@ class ProductListCreateView(generics.ListCreateAPIView):
             queryset = queryset.filter(content__icontains=content)
         return queryset
 
-
-
     def perform_create(self, serializer):
         serializer.save(username=self.request.user.username)
-
-    def get_paginated_response(self, data):
-        paginator = PageNumberPagination()
-        paginator.page_size = 10  # 페이지당 상품 수
-        return paginator.get_paginated_response(data)
 
 
 # 상품 수정 및 삭제
