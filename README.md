@@ -62,6 +62,8 @@
 
 ## POSTMAN 기능 점검 🌐
 
+![회원가입](https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/ab94a367-8633-4873-b7f5-89dd191bde15 "회원가입")
+
 <div align="center">
   <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/ab94a367-8633-4873-b7f5-89dd191bde15" alt="회원가입" width="400" height="300">
   <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/da5f4c7a-e8ba-40cf-8adb-c453643d34ac" alt="로그인" width="400" height="300">
