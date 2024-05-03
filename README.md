@@ -61,6 +61,16 @@
 <br/>
 
 
+## ERD 💾
+
+<div align="center">
+  <img src="https://github.com/leejinwon012/Sparta_Marker_DRF/assets/78424970/c61b2733-ad3c-4ca0-b3a1-3686f7169a68" alt="ERD" width="700" height="500">
+</div>
+
+<br/>
+
+
+
 ## POSTMAN 기능 점검 🌐
 
 - POSTMAN을 활용해서 각 기능들을 점검한 결과입니다.
